@@ -346,8 +346,8 @@ zadatak = 0
 if zadatak == 2 or zadatak == 0:
     print("Drugi zadatak\n")
 
-    A2 = Matrix(r"2A.txt")
-    b2 = Matrix(r"2b.txt")
+    A2 = Matrix(r"Lab1\Matrices\2A.txt")
+    b2 = Matrix(r"Lab1\Matrices\2B.txt")
 
     print("LU dekompozicijom:\n")
     A2.print()
@@ -356,8 +356,8 @@ if zadatak == 2 or zadatak == 0:
 
     print("\n\n")
 
-    A2 = Matrix(r"2A.txt")
-    b2 = Matrix(r"2b.txt")
+    A2 = Matrix(r"Lab1\Matrices\2A.txt")
+    b2 = Matrix(r"Lab1\Matrices\2B.txt")
 
     print("LUP dekompozicijom:\n")
     A2.print()
@@ -374,8 +374,8 @@ if zadatak == 2 or zadatak == 0:
 if zadatak == 3 or zadatak == 0:
     print("Treći zadatak")
 
-    A3 = Matrix(r"3A.txt")
-    b2 = Matrix(r"2b.txt")
+    A3 = Matrix(r"Lab1\Matrices\3A.txt")
+    b2 = Matrix(r"Lab1\Matrices\2B.txt")
 
     print("LU dekompozicijom:\n")
     A3.print()
@@ -394,8 +394,8 @@ if zadatak == 3 or zadatak == 0:
 
     print("\n\n")
 
-    A3 = Matrix(r"3A.txt")
-    b2 = Matrix(r"2b.txt")
+    A3 = Matrix(r"Lab1\Matrices\3A.txt")
+    b2 = Matrix(r"Lab1\Matrices\2B.txt")
 
     print("LUP dekompozicijom:\n")
     A3.print()
@@ -411,8 +411,8 @@ if zadatak == 3 or zadatak == 0:
 if zadatak == 4 or zadatak == 0:
     print("Četvrti zadatak")
 
-    A4 = Matrix(r"4A.txt")
-    b4 = Matrix(r"4b.txt")
+    A4 = Matrix(r"Lab1\Matrices\4A.txt")
+    b4 = Matrix(r"Lab1\Matrices\4B.txt")
 
     print("LU dekompozicijom:\n")
     A4.print()
@@ -428,8 +428,8 @@ if zadatak == 4 or zadatak == 0:
    
     print("\n\n")
 
-    A4 = Matrix(r"4A.txt")
-    b4 = Matrix(r"4b.txt")
+    A4 = Matrix(r"Lab1\Matrices\4A.txt")
+    b4 = Matrix(r"Lab1\Matrices\4B.txt")
 
     print("LUP dekompozicijom:\n")
     A4.print()
@@ -446,8 +446,8 @@ if zadatak == 4 or zadatak == 0:
 if zadatak == 5 or zadatak == 0:
     print("Peti zadatak")
 
-    A5 = Matrix(r"5A.txt")
-    b5 = Matrix(r"5b.txt")
+    A5 = Matrix(r"Lab1\Matrices\5A.txt")
+    b5 = Matrix(r"Lab1\Matrices\5B.txt")
 
     print("LUP dekompozicijom:\n")
     A5.print()
@@ -464,8 +464,8 @@ if zadatak == 5 or zadatak == 0:
 if zadatak == 6 or zadatak == 0:
     print("Šesti zadatak")
     
-    A6 = Matrix(r"6A.txt")
-    b6 = Matrix(r"6b.txt")
+    A6 = Matrix(r"Lab1\Matrices\6A.txt")
+    b6 = Matrix(r"Lab1\Matrices\6B.txt")
 
     print("LUP dekompozicijom:\n")
     A6.print()
@@ -482,7 +482,7 @@ if zadatak == 6 or zadatak == 0:
 if zadatak == 7 or zadatak == 0:
     print("Sedmi zadatak")
 
-    A7 = Matrix(r"7A.txt")
+    A7 = Matrix(r"Lab1\Matrices\7A.txt")
     A7.print()
 
     print("Inverz: ")
@@ -491,7 +491,7 @@ if zadatak == 7 or zadatak == 0:
 if zadatak == 8 or zadatak == 0:
     print("Osmi zadatak")
 
-    A8 = Matrix(r"8A.txt")
+    A8 = Matrix(r"Lab1\Matrices\8A.txt")
     A8.print()
 
     print("Inverz: ")
@@ -501,7 +501,7 @@ if zadatak == 8 or zadatak == 0:
 if zadatak == 9 or zadatak == 0:
     print("Deveti zadatak")
 
-    A9 = Matrix(r"9A.txt")
+    A9 = Matrix(r"Lab1\Matrices\9A.txt")
     A9.print()
 
     detA9= A9.determinant()
@@ -510,7 +510,7 @@ if zadatak == 9 or zadatak == 0:
 if zadatak == 10 or zadatak == 0:
     print("Deseti zadatak")
 
-    A10 = Matrix(r"10A.txt")
+    A10 = Matrix(r"Lab1\Matrices\10A.txt")
     A10.print()
 
     detA10= A10.determinant()
