@@ -5,13 +5,15 @@ class Matrix():
     epsilon = 10E-12
 
     #Constructor that takes path to file where matrix is writen and loads it
-    def __init__(self, path=None):
+    def __init__(self, path = None):
 
+        #Default empty matrix
         if path == None:
             self.values = []
             self.rows = 0
             self.columns = 0
             return
+
         else:
             file = open(path,"r")
             lines = file.read()
@@ -19,7 +21,6 @@ class Matrix():
 
             self.values = []
             self.rows = len(lines)
-
 
             for row in lines:
                 row = row.split()
@@ -52,7 +53,7 @@ class Matrix():
     def __add__(self, other):
         
         if self.rows != other.rows or self.columns != other.columns:
-            print("Cannot add those!")
+            print("Cannot add!! Shapes do not match!!")
             return None
 
         newMatrix = Matrix()
@@ -75,7 +76,7 @@ class Matrix():
     def __sub__(self, other):
         
         if self.rows != other.rows or self.columns != other.columns:
-            print("Cannot sub those!")
+            print("Cannot subtract!! Shapes do not match!!")
             return None
 
         newMatrix = Matrix()
@@ -98,7 +99,7 @@ class Matrix():
     def __mul__(self, other):
         
         if self.columns != other.rows:
-            print("Cannot multiply those!")
+            print("Cannot multiply!! Shapes do not match!!")
             return None
 
         newMatrix = Matrix()
@@ -141,7 +142,7 @@ class Matrix():
     def __iadd__(self,other):
 
         if self.rows != other.rows or self.columns != other.columns:
-            print("Cannot add those!")
+            print("Cannot add!! Shapes do not match!!")
             return None
 
         for x in range(0,self.rows):
@@ -154,7 +155,7 @@ class Matrix():
     def __isub__(self,other):
 
         if self.rows != other.rows or self.columns != other.columns:
-            print("Cannot sub those!")
+            print("Cannot subtract!! Shapes do not match!!")
             return None
 
         for x in range(0,self.rows):
@@ -163,7 +164,7 @@ class Matrix():
         
         return self
 
-    #method for scalar multiplication, performs it on self
+    #Scalar multiplication
     def scalarMul(self,scalar):
 
         for x in range(0,self.rows):
